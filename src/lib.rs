@@ -6,6 +6,6 @@ mod tests {
     }
 }
 
-pub fn foo(input_filename:&str) {
-    println!("The foo() function wants to run an ffmpeg command with param: {:?}", input_filename);
+pub fn foo(input_filename: &str) {
+    println!("param: {:?}", input_filename);
 }
